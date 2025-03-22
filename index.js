@@ -127,7 +127,7 @@ function createBot() {
       }
 
       if (config.utils['anti-afk'].enabled) {
-         bot.setControlState('jump', true);
+         bot.setControlState('jump', false);
          if (config.utils['anti-afk'].sneak) {
             bot.setControlState('sneak', true);
          }
